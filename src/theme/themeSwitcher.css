@@ -1,0 +1,28 @@
+.theme-switcher-btn {
+  background-color: var(--theme-switcher-button);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 48px;
+  width: 48px;
+  transition: background-color 0.3s ease-in;
+}
+svg {
+  transition: all 0.3s ease-in;
+}
+.light .moon-graphic {
+  opacity: 0;
+  width: 0;
+}
+.light .sun-graphic {
+  opacity: 1;
+  width: 24px;
+}
+.dark .moon-graphic {
+  opacity: 1;
+  width: 24px;
+}
+.dark .sun-graphic {
+  opacity: 0;
+  width: 0;
+}

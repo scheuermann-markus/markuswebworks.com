@@ -1,0 +1,16 @@
+body.dark {
+  --background-color: #222222;
+  --text-color: #fff;
+  --heading-color: rgb(150, 150, 150);
+  --text-hover: rgb(150, 150, 150);
+  --theme-switcher-button: rgb(150, 150, 150);
+}
+
+body.light {
+  --background-color: #fff;
+  --text-color: #222222;
+  --heading-color: #356996;
+  --text-hover: #fbb046;
+  --theme-switcher-button: #356996;
+}
+ 

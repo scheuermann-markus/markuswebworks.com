@@ -1,0 +1,64 @@
+body.light {
+  --background-color-wp: #c6cfd7;
+}
+
+body.dark {
+  --background-color-wp: #666666;
+}
+
+.wp-area {
+  padding-top: 20px;
+  background-color: var(--background-color-wp);
+  min-height: 100vh;
+}
+
+.wp-header-section {
+  margin: 2rem 8%;
+  display: grid;
+  justify-content: center;
+}
+
+.wp-header-section h1 {
+  text-align: center;
+}
+
+.wp-header-section p {
+  text-align: center;
+}
+
+.wp-header-section .p-small {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.wp-examples-section {
+  display: grid;
+  grid-template-columns: 45vw 45vw;
+  justify-content: space-evenly;
+}
+
+.examples {
+  height: 60vh;
+  width: 45vw;
+  display: inline-block;
+  border-radius: 7px;
+  cursor: pointer;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  transition: transform 0.4s;
+}
+
+.examples:hover {
+  transform: translateY(-8px);
+}
+
+.ulrich-scheuermann {
+  background-size: cover;
+  background-position: left;
+  background-image: url(../../images/ulrich-scheuermann-website-image.png);
+}
+
+.beija-flor {
+  background-size: cover;
+  background-position: left;
+  background-image: url(../../images/beija-flor-website-image.png);
+}

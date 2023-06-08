@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--background-color);
+  transition: background 0.3s ease-in, color 0.3s ease-in;
+}
+
+h1 {
+  font-family: Inter-Bold;
+  font-size: 48px;
+  color: var(--heading-color);
+  letter-spacing: -0.1rem;
+  padding-bottom: 8px;
+}
+
+h2 {
+  font-family: Inter-Bold;
+  font-size: 36px;
+  color: var(--heading-color);
+  letter-spacing: -0.1rem;
+  padding-bottom: 6px;
+}
+
+h4 {
+  font-family: Inter-Bold;
+  font-size: 18px;
+  color: var(--heading-color);
+  letter-spacing: -0.1rem;
+}
+
+p {
+  font-family: Inter-Regular;
+  font-size: 18px;
+  color: var(--text-color);
+  letter-spacing: 0.025rem;
+}
+
+/* FONTS */
+@font-face {
+  font-family: Inter-Bold;
+  src: url(./fonts/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: Inter-Regular;
+  src: url(./fonts/Inter-Regular.ttf);
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+::-webkit-scrollbar-track {
+  background: var(--background-color);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--heading-color);
+  border-radius: 10px;
+}

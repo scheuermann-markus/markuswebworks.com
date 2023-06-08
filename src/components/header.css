@@ -1,0 +1,38 @@
+.header {
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  padding: 8px 8%;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+  margin-right: 24px;
+}
+
+.header h1 {
+  font-size: 1.4rem;
+  padding-bottom: 0;
+}
+
+.h1-link {
+  text-decoration: none;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 24px;
+}
+
+nav ul li a {
+  font-family: Inter-Regular;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+nav ul li a:hover {
+  color: var(--text-hover);
+}

@@ -1,0 +1,96 @@
+body.light {
+  --background-color-notify: #c6cfd7;
+}
+
+body.dark {
+  --background-color-notify: #666666;
+}
+
+.notify-area {
+  padding: 20px 8%;
+  background-color: var(--background-color-notify);
+  min-height: 100vh;
+}
+
+.notify-head {
+  margin: 2rem 8%;
+  display: grid;
+  justify-content: center;
+}
+
+.notify-head h1 {
+  text-align: center;
+}
+
+.notify-head p {
+  text-align: center;
+}
+
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  color: #222222;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: #222222;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: var(--theme-switcher-button);
+  border: none;
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+  outline: none;
+  color: #222222;
+}
+
+form {
+  position: relative;
+  width: 480px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form input,
+form textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.1em;
+  font-family: Inter-Regular;
+  resize: none;
+}
+form .form-button {
+  position: absolute;
+  right: 18px;
+  bottom: -20px;
+  background: var(--theme-switcher-button);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 1px 3px #222222;
+  cursor: pointer;
+  outline: none;
+}
