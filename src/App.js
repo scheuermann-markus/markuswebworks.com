@@ -7,7 +7,7 @@ import Notify from "./projects/Notify/Notify";
 import Wpprojects from "./projects/WP-Projects/wp-projects";
 import RandomUser from "./projects/RandomUser/RandomUser";
 import ScrollToTop from "./functions/ScrollToTop";
-//asdfjaföjlasdfjfjl//
+
 function App() {
   return (
     <div>
