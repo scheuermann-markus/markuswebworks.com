@@ -48,6 +48,26 @@ body.dark {
   line-height: 30px;
 }
 
+.heroSection .button {
+  text-decoration: none;
+  font-family: Inter-Bold;
+  font-size: 16px;
+  text-align: center;
+  color: #222222;
+  background-color: ghostwhite;
+  border: none;
+  border-radius: 16px;
+  padding: 12px 16px;
+  height: 20px;
+  margin-left: 0;
+  cursor: pointer;
+  transition: transform 0.4s;
+}
+
+.heroSection .button:hover {
+  transform: translateY(-8px);
+}
+
 .card-1 {
   grid-column: 1 / 2;
   height: 230px;

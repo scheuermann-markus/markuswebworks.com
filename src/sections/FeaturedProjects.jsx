@@ -9,21 +9,23 @@ const CardData = [
       "Note keeping application utilizing basic React functionality like useState, props and the spread operator.",
     getImageSrc: () => require("../images/Notify_img.png"),
     viewLink: "notify",
-    codeLink: "",
+    codeLink: "https://github.com/scheuermann-markus/markuswebworks.com/tree/main/src/projects/Notify",
   },
   {
     title: "Game Logic",
-    description: "I programmed the Simon Game from scratch to work with logic, arrays, loops, nested functions and more.",
+    description:
+      "I programmed the Simon Game from scratch to work with logic, arrays, loops, nested functions and more.",
     getImageSrc: () => require("../images/simonGame_img.png"),
     viewLink: "simongame",
-    codeLink: "simongame",
+    codeLink: "https://github.com/scheuermann-markus/markuswebworks.com/tree/main/src/projects/SimonGame",
   },
   {
     title: "Wordpress",
-    description: "Besides React I also work with Wordpress. Feel free to check out two websites I've created.",
+    description:
+      "Besides React I also work with Wordpress. Feel free to check out two websites I've created.",
     getImageSrc: () => require("../images/wordpress_img.jpg"),
     viewLink: "wordpress",
-    codeLink: "wordpress",
+    codeLink: "https://beija-flor-aus-liebe-zur-blume.de/",
   },
 ];
 
@@ -35,8 +37,16 @@ function Card(props) {
       <hr />
       <p>{props.description}</p>
       <div className="cardButtons-div">
-        <Link to={props.codeLink} as="div" className="cardButton">Code</Link>
-        <Link to={props.viewLink} as="div" className="cardButton">View</Link>
+        <a
+          className="cardButton"
+          href={props.codeLink}
+          target="blank"
+        >
+          Code
+        </a>
+        <Link to={props.viewLink} as="div" className="cardButton">
+          View
+        </Link>
       </div>
     </div>
   );

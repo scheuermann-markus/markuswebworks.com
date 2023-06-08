@@ -12,6 +12,13 @@ function HeroSection() {
           Game', jot down some thoughts using 'Notify' or check out some
           Wordpress projects I've created. Happy Hacking!
         </p>
+        <a
+          className="button"
+          href="https://github.com/scheuermann-markus/markuswebworks.com"
+          target="blank"
+        >
+          View Code on Git
+        </a>
       </div>
       <div className="col">
         <div className="hero-links">
