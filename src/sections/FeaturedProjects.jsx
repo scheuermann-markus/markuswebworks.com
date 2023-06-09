@@ -9,7 +9,8 @@ const CardData = [
       "Note keeping application utilizing basic React functionality like useState, props and the spread operator.",
     getImageSrc: () => require("../images/Notify_img.png"),
     viewLink: "notify",
-    codeLink: "https://github.com/scheuermann-markus/markuswebworks.com/tree/main/src/projects/Notify",
+    codeLink:
+      "https://github.com/scheuermann-markus/markuswebworks.com/tree/main/src/projects/Notify",
   },
   {
     title: "Game Logic",
@@ -17,7 +18,8 @@ const CardData = [
       "I programmed the Simon Game from scratch to work with logic, arrays, loops, nested functions and more.",
     getImageSrc: () => require("../images/simonGame_img.png"),
     viewLink: "simongame",
-    codeLink: "https://github.com/scheuermann-markus/markuswebworks.com/tree/main/src/projects/SimonGame",
+    codeLink:
+      "https://github.com/scheuermann-markus/markuswebworks.com/tree/main/src/projects/SimonGame",
   },
   {
     title: "Wordpress",
@@ -37,11 +39,7 @@ function Card(props) {
       <hr />
       <p>{props.description}</p>
       <div className="cardButtons-div">
-        <a
-          className="cardButton"
-          href={props.codeLink}
-          target="blank"
-        >
+        <a className="cardButton" href={props.codeLink} target="blank">
           Code
         </a>
         <Link to={props.viewLink} as="div" className="cardButton">
@@ -55,6 +53,8 @@ function Card(props) {
 function FeaturedProjects() {
   return (
     <div className="FeaturedProjects" id="FeaturedProjects">
+      <div id="stars"></div>
+      <div id="stars2"></div>
       <h2>Projects</h2>
       <div className="project-cards">
         {CardData.map(

@@ -5,12 +5,11 @@ function HeroSection() {
   return (
     <div className="heroSection" id="heroSection">
       <div className="col">
-        <h1>This is a React Site</h1>
+        <h1>Welcome</h1>
         <p>
-          Welcome to my website built using React. Take a stroll through its
-          different sections, put your memory skills to the test with the 'Simon
-          Game', jot down some thoughts using 'Notify' or check out some
-          Wordpress projects I've created. Happy Hacking!
+          ... to my website built using React. In different projects I'm
+          taking my programming skills to the test. Feel free to explore the
+          code on my GitHub repository. <br /> Happy Hacking!
         </p>
         <a
           className="button"

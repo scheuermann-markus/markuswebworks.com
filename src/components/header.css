@@ -1,3 +1,11 @@
+body.dark {
+  --fill-color: #fff;
+}
+
+body.light {
+  --fill-color: #356996;
+}
+
 .header {
   height: 7vh;
   display: flex;
@@ -16,8 +24,9 @@ nav {
   padding-bottom: 0;
 }
 
-.h1-link {
-  text-decoration: none;
+.github-svg {
+  cursor: pointer;
+  fill: var(--fill-color);
 }
 
 nav ul li {

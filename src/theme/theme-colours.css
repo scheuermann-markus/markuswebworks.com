@@ -1,7 +1,7 @@
 body.dark {
   --background-color: #222222;
-  --text-color: #fff;
-  --heading-color: rgb(150, 150, 150);
+  --text-color: ghostwhite;
+  --heading-color: ghostwhite;
   --text-hover: rgb(150, 150, 150);
   --theme-switcher-button: rgb(150, 150, 150);
 }

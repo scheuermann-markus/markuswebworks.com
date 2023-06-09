@@ -36,6 +36,7 @@ p {
   font-size: 18px;
   color: var(--text-color);
   letter-spacing: 0.025rem;
+  line-height: 25px;
 }
 
 /* FONTS */

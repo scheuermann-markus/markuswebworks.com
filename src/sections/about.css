@@ -4,8 +4,8 @@ body.light {
 }
 
 body.dark {
-  --background-color-about: #666666;
-  --background-color-editor: rgb(150, 150, 150);
+  --background-color-about: #343434;
+  --background-color-editor: #fff;
 }
 
 .about {
