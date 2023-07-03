@@ -1,5 +1,6 @@
 import "./footer.css";
-import { Phone, Email } from "@material-ui/icons";
+import { PhoneIcon } from "../Icons/PhoneIcon";
+import { MailIcon } from "../Icons/MailIcon";
 
 function Footer() {
   return (
@@ -13,8 +14,8 @@ function Footer() {
         <br />
         <hr />
         <br />
-        <div className="contactData"><Phone /><p>+49 159 01274662</p></div>
-        <div className="contactData"><Email /><p>scheuermann-markus@gmx.de</p></div>
+        <div className="contactData"><PhoneIcon /><p>+49 159 01274662</p></div>
+        <div className="contactData"><MailIcon /><p>scheuermann-markus@gmx.de</p></div>
       </div>
     </div>
   ); 

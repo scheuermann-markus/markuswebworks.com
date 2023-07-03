@@ -1,16 +1,14 @@
-body.dark {
-  --fill-color: #fff;
-}
-
-body.light {
-  --fill-color: #356996;
-}
-
 .header {
   height: 7vh;
   display: flex;
   align-items: center;
   padding: 8px 8%;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 nav {
@@ -22,11 +20,6 @@ nav {
 .header h1 {
   font-size: 1.4rem;
   padding-bottom: 0;
-}
-
-.github-svg {
-  cursor: pointer;
-  fill: var(--fill-color);
 }
 
 nav ul li {

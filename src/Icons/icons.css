@@ -1,0 +1,30 @@
+body.dark {
+  --fill-color: #fff;
+}
+
+body.light {
+  --fill-color: #356996;
+}
+
+.github_icon {
+  cursor: pointer;
+  fill: var(--fill-color);
+}
+
+.docker_icon {
+  cursor: pointer;
+  fill: var(--fill-color);
+}
+
+.linkedin_icon {
+  cursor: pointer;
+  fill: var(--fill-color);
+}
+
+.phone_icon {
+  fill: var(--fill-color);
+}
+
+.mail_icon {
+  stroke: var(--fill-color);
+}
