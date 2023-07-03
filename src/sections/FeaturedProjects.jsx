@@ -3,6 +3,15 @@ import "./featuredProjects.css";
 import { Link } from "react-router-dom";
 
 const CardData = [
+    {
+    title: "Oldtimer Search",
+    description:
+      "A search application for oldtimers with dynmaic rendered results.",
+    getImageSrc: () => require("../images/oldtimer_img.png"),
+    viewLink: "oldtimer",
+    codeLink:
+      "",
+  },
   {
     title: "Notify",
     description:

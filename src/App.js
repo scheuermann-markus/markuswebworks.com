@@ -1,12 +1,12 @@
 import { Routes, Route, Navigate } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from "./sections/Header";
+import Footer from "./sections/Footer";
 import Home from "./Home";
 import SimonGame from "./projects/SimonGame/SimonGame.jsx";
 import Notify from "./projects/Notify/Notify";
 import Wpprojects from "./projects/WP-Projects/wp-projects";
-import RandomUser from "./projects/RandomUser/RandomUser";
 import ScrollToTop from "./functions/ScrollToTop";
+import OldtimerSearch from "./projects/OldtimerSearch/indexOS";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Route path="simongame" element={<SimonGame />} />
         <Route path="notify" element={<Notify />} />
         <Route path="wordpress" element={<Wpprojects />} />
-        <Route path="randomUser" element={<RandomUser />} />
+        <Route path="oldtimer" element={<OldtimerSearch />} />
       </Routes>
       <Footer />
       <ScrollToTop />

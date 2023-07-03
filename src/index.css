@@ -50,6 +50,11 @@ p {
   src: url(./fonts/Inter-Regular.ttf);
 }
 
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(./fonts/Poppins-Regular.ttf);
+}
+
 /* SCROLLBAR */
 ::-webkit-scrollbar {
   width: 0.5rem;

@@ -17,7 +17,7 @@ function Footer() {
         <div className="contactData"><Email /><p>scheuermann-markus@gmx.de</p></div>
       </div>
     </div>
-  );
+  ); 
 }
 
 export default Footer;

@@ -1,0 +1,8 @@
+.clear-icon {
+  fill: #a5a6a6;
+}
+
+.clear-icon:hover {
+  fill: #3a3a3a;
+  cursor: pointer;
+}
