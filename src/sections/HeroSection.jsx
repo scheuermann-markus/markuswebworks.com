@@ -7,9 +7,9 @@ function HeroSection() {
       <div className="col">
         <h1>Welcome</h1>
         <p>
-          ... to my website built using React. In different projects I'm
-          taking my programming skills to the test. Feel free to explore the
-          code on my GitHub repository. <br /> Happy Hacking!
+          ... to my website built using React. In different projects I'm taking
+          my programming skills to the test. Feel free to explore the code on my
+          GitHub repository. <br /> Happy Hacking!
         </p>
         <a
           className="button"

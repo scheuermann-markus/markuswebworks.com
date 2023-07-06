@@ -179,6 +179,7 @@ const OldtimerData = [
     Sales: 4150000,
     Url: "https://www.arteporexcelencias.com/sites/default/files/2020-02/1-%20Ford%20Thunderbird%20de%201955.jpg",
   },
+  
   {
     Name: "Chevrolet Bel Air",
     Brand: "Chevrolet",
@@ -214,6 +215,18 @@ const OldtimerData = [
     Power: 18,
     Sales: 4000000,
     Url: "https://www.coches.com/fotos_historicas/fiat/500-1957-1975/fiat_500-1957-1975_r13.jpg",
+  },
+  {
+    Name: "Peugeot 504",
+    Brand: "Peugeot",
+    ProductionStart: 1968,
+    ProductionEnd: 2005,
+    Doors: 4,
+    Seats: 5,
+    Fuel: "Diesel",
+    Power: 70,
+    Sales: 3700000,
+    Url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/1978_Peugeot_504_Ti_Automatic_2.0_Front.jpg/1200px-1978_Peugeot_504_Ti_Automatic_2.0_Front.jpg"
   },
   {
     Name: "Pontiac Firebird",
@@ -564,6 +577,18 @@ const OldtimerData = [
     Url: "https://www.jaguarheritage.com/jdht/wp-content/uploads/XJ_William_Lyons_08.18_0539-1152w-x-504h-1024x448.jpg"
   },
   {
+    Name: "300D (W123)",
+    Brand: "Mercedes-Benz",
+    ProductionStart: 1975,
+    ProductionEnd: 1986,
+    Doors: 4,
+    Seats: 5,
+    Fuel: "Diesel",
+    Power: 125,
+    Sales: 2700000,
+    Url: "https://i.auto-bild.de/mdb/large/92/baureihe123-a0f.jpg"
+  },
+  {
     Name: "Silver Shadow",
     Brand: "Rolls-Royce",
     ProductionStart: 1965,
@@ -598,6 +623,18 @@ const OldtimerData = [
     Power: 67,
     Sales: 314332,
     Url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/1965TriumphSpitfire.jpg/250px-1965TriumphSpitfire.jpg"
+  },
+  {
+    Name: "Citroën 2CV",
+    Brand: "Citroën",
+    ProductionStart: 1949,
+    ProductionEnd: 1990,
+    Doors: 2,
+    Seats: 2,
+    Fuel: "Diesel",
+    Power: 29,
+    Sales: 3800000,
+    Url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/2CV-1956-Caen.jpg/375px-2CV-1956-Caen.jpg"
   },
   {
     Name: "Charger",

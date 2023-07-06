@@ -67,7 +67,7 @@ function About() {
       <div className="about-div-paragraph">
         <p>
           Hi, my name is Markus and I am a self-taught front-end programmer at
-          the age of 27. Although my academic background is in Logistics
+          the age of 28. Although my academic background is in Logistics
           Management (BSc.) and Business Analytics (MSc.), it was during my
           studies that I first discovered programming languages. In 2022, I made
           the decision to pursue programming as my profession, as it allows me
