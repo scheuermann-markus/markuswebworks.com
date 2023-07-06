@@ -74,7 +74,14 @@ body.dark {
   background-position: center;
   background-size: cover;
   transition: transform 0.4s;
-  background-image: url(../images/oldtimer-search-img.png);
+  background-image: var(--background-overlay), url(../images/oldtimer_hero_img.jpg);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter-Bold;
+  color: var(--text-color);
+  font-size: 1.5rem;
 }
 
 .card-2 {

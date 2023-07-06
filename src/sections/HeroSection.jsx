@@ -21,7 +21,7 @@ function HeroSection() {
       </div>
       <div className="col">
         <div className="hero-links">
-          <Link to="oldtimer" as="div" className="card card-1"></Link>
+          <Link to="oldtimer" as="div" className="card card-1">Car Search Application</Link>
           <Link to="simongame" as="div" className="card card-2"></Link>
           <Link to="wordpress" as="div" className="card card-3"></Link>
         </div>
